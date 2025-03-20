@@ -1,5 +1,78 @@
 body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;+
+    text-decoration: none;
+}
+
+#feedback{
+    margin-top: 10%;
+    padding-top: 38%;
+}
+section {
+    padding: 50px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.login-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: steelblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.login-button:hover {
+    background: steelblue;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+ Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
